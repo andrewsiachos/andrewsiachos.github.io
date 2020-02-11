@@ -1,0 +1,75 @@
+@font-face{
+    font-family:coldiac;
+    src:url("fonts/coldiac.otf");
+}
+
+#songBox{
+    background-image: url("https://image.ibb.co/c1JOVL/nightsky2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background-color 1.2s;
+    font-family:coldiac;
+}
+#lyricsInfo{
+    display:flex;
+}
+#lyricsInfo div{
+    border:1px solid rgba(252, 252, 252, 0.151 );
+    text-align: center;
+}
+#theLyrics{
+    width:60%;
+}
+#theInfo{
+    width:40%;
+    margin:0 15px 0 15px;
+    /*height:700px;*/
+}
+#theInfo a{
+    color:#e0cb7d;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+#theInfo a:hover{
+    color:silver;
+}
+#theInfo ul{
+    list-style-type: none;
+    text-align: justify;
+    width:60%;
+    margin:auto;
+}
+#theInfo li:hover{
+    cursor: pointer;
+    transition:color 0.8s;
+}
+.selected{
+    color:white;
+}
+#lyrText{
+    height:700px;
+    overflow: auto;
+}
+#note{
+    font-size:13px;
+}
+
+
+
+@media(max-width:768px){
+    #lyricsInfo{
+        flex-direction: column-reverse;
+    }
+    #theLyrics, #theInfo{
+        margin:5px auto;
+        width:90%;
+    }
+    #theInfo{
+        height:450px;
+        overflow:scroll;
+    }
+    #theInfo ul{
+        text-align:center;
+        font-size:18px;
+    }
+}

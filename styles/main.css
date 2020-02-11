@@ -1,0 +1,434 @@
+@font-face{
+    font-family:myFont;
+    src:url("fonts/Alice_in_Wonderland_3.ttf");
+  }
+  @font-face{
+    font-family:coldiac;
+    src:url("fonts/coldiac.otf");
+  }
+  /*GLOBAL SETTINGS BEGIN*/
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  hr {
+    border: 0px;
+    border-bottom: 1px solid whitesmoke;
+  }
+  
+  img::selection {
+    background-color: transparent;
+  }
+  
+  body {
+    background: #232526;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);
+    background: linear-gradient(to right, #414345, #232526);
+    color: white;
+  }
+  #disclaimer {
+    text-align: center;
+    font-size: 12px;
+    height: 20px;
+  }
+  
+  header {
+    text-align: center;
+    background-image: url("https://image.ibb.co/bNOdvL/starrysky.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  nav {
+    background-color: #1a2d3c;
+  }
+  
+  nav ul {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  nav li {
+    display: inline-block;
+    font-size: 25px;
+    padding: 10px;
+    font-family: myFont;
+  }
+  
+  nav a {
+    color: inherit;
+    transition: all 0.1s;
+  }
+  
+  nav a:hover {
+    text-decoration: none;
+    color: inherit;
+    text-shadow: 1px 1px 10px #fcfcc4, 1px 1px 10px #ccc;
+  }
+  #menuActivate {
+    cursor: pointer;
+    display: none;
+  }
+  
+  #arrow {
+    transition: all 0.1s;
+    margin-left: 10px;
+    margin-top: -3px;
+  }
+  
+  .rotate {
+    transform: rotate(90deg);
+  }
+  
+  /*GLOBAL SETTINGS END*/
+  /*--------------------------------*/
+
+   /*MAIN SETTINGS BEGIN*/
+   #bigWrapper, #bandBox {
+    background-image: url("https://image.ibb.co/c1JOVL/nightsky2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background-color 1.2s;
+  }
+  #indexMain {
+    border-right: 3px solid rgba(226, 226, 226, 0.2);
+    border-left: 3px solid rgba(226, 226, 226, 0.2);
+    width: 95%;
+    margin: auto;
+    display: flex;
+  }
+  
+  #indexMain div {
+    width: 50%;
+    text-align: justify;
+    padding: 5px;
+    margin: 5px;
+  }
+  
+  .mainHeading {
+    text-align: center;
+    color: #e0cb7d;
+  }
+  
+  #news a {
+    color: #e0cb7d;
+    transition: color 0.2s;
+  }
+  
+  #news a:hover {
+    text-decoration: none;
+    color: silver;
+  }
+  /*MAIN SETTINGS END*/
+
+
+  /*BAND SETTINGS START*/
+  #membersTitle{
+      border-bottom: 1px solid silver;
+      width:90%;
+      margin:auto;
+  }
+  #bandBox{
+    height:1250px;
+    font-family: coldiac;
+  }
+  #bandDisplay{
+    margin-top:15px;
+    display: grid;
+    grid-template-columns: 303px 303px 303px;
+    grid-gap: 15px;
+    justify-content: center;
+  }
+  .thumbs{
+    border:1px solid rgba(252, 252, 252, 0.151);
+    cursor: pointer;
+  }
+  .thumbs img{
+      transition:opacity 0.3s;
+  }
+  .thumbs h6{
+      margin-top:5px;
+  }
+  .thumbs p{
+      border-top:1px solid white;
+      width:95%;
+      margin:auto;
+      padding:6px;
+  }
+  #bandDisplay h6{
+    text-align: center;
+    color:#e0cb7d;
+    transition:all 0.3s;
+  }
+
+  #photosAndInfo{
+    display:flex;
+    justify-content: center;
+    width:100%;
+    margin:auto;
+    height:auto;
+  }
+  #photosAndInfo div{
+    border:1px solid rgba(252, 252, 252, 0.151);
+    border-radius: 4px;
+  }
+  #bandDetails{
+    width:97%;
+    margin:auto;
+    display:none;
+  }
+  #infoBox{
+    width:35%;
+    text-align: justify;
+    padding:10px;
+    overflow:auto;
+  }
+  #horRule{
+    border:0px;
+    border-bottom: 1px solid rgba(252, 252, 252, 0.151);
+  }
+  #sideMenu{
+    width:25%;
+    padding:6px;
+  }
+  .memberChoice{
+    text-align: center;
+    color:#e0cb7d;
+    transition:all 0.7s;
+    cursor:pointer;
+  }
+  .active{
+      color:gray;
+  }
+  .active:hover{
+      opacity:1 !important;
+  }
+  .memberChoice:hover{
+    opacity:0.5;
+  }
+  /*BAND SETTINGS END*/
+
+
+  /*DISCOGRAPHY SETTINGS START*/
+#albums, #otherAlbums{
+    display: grid;
+    grid-template-columns: 303px 303px 303px;
+    grid-gap:20px;
+    justify-content: center;
+    font-family:coldiac;
+  }
+  #albums{
+    padding:11px;
+    transition: background-color 0.3s;
+  }
+  .alThumb > h5{
+    font-size:18px;
+  }
+  .alThumb img{
+    border:1px solid rgba(252, 252, 252, 0.151);
+    transition: all .8s;
+  }
+  .alThumb img:hover{
+    filter: brightness(150%);
+  }
+  .alThumb:hover{
+    cursor: pointer;
+  }
+  .trackList{
+    display: none;
+    transition: display 0.3s;
+  }
+  .trackList ol{
+    width:80%;
+    margin:auto;
+    text-align: justify;
+  }
+  .view{
+    border:1px solid gray;
+    border-radius: 7px 3px 7px 3px;
+    text-align: center;
+    background-color: #474545;
+    margin-top:5px;
+  }
+  .view:hover{
+    color:#e0cb7d;
+  }
+  #discHr{
+      margin:20px auto;
+  }
+  /*DISCOGRAPHY SEETINGS END*/
+  /*-------------------------*/
+
+  /*PHOTOS SETTIGS START*/
+#photoContainer{
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-row-gap: 10px;
+  padding-top:15px;
+  justify-content: center;
+}
+#photoContainer div{
+  width:300px;
+  height:300px;
+  border:1px solid rgba(252, 252, 252, 0.151);
+}
+#photoContainer img{
+  width:100%;
+  height:100%;
+}
+/*PHOTOS SETTINGS END*/
+
+
+/*CONTACT SETTINGS START*/
+#contactBox{
+  display:flex;
+  text-align:center;
+  justify-content: center;
+}
+#otherContacts{
+  text-align:center;
+  padding-top:50px;
+  width:50%;
+}
+#otherContacts a{
+  color:#e0cb7d;
+  text-decoration: none;
+}
+#otherContacts a:hover{
+  color:silver;
+}
+#fanMail{
+  width:40%;
+  border-right:1px solid rgba(252, 252, 252, 0.151);
+}
+/*CONTACT SETTINGS END*/
+  /*FOOTER SETTINGS BEGIN*/
+  footer {
+    text-align: center;
+    padding: 10px 0 10px 0;
+    margin-top:10px;
+  }
+  
+  footer a, #troyLink {
+    color: #e0cb7d;
+    transition: color 0.2s;
+  }
+  
+  footer a:hover, #troyLink:hover {
+    text-decoration: none;
+    color: silver;
+  }
+  
+  /*FOOTER SETTINGS END*/
+  /*-------------------*/
+
+  @media(max-width: 1000px) {
+    nav li {
+      display: block;
+      font-size: 25px;
+      list-style-type: none;
+    }
+    #menuActivate {
+      display: block;
+      /*Change Font Display*/
+      font-size:25px;
+    }
+    .nav-menu {
+      display: none;
+    }
+    #bandDisplay{
+      display: flex;
+      flex-direction:column;
+    }
+    #bandBox{
+      height:auto;
+    }
+    #bandDisplay div{
+      text-align:center;
+    }
+    .thumbs{
+      width:300px;
+      margin:auto;
+    }
+    #photosAndInfo{
+      flex-direction: column;
+    }
+    #sideMenu, #infoBox, #memberPhoto{
+      width:97%;
+      margin:auto;
+    }
+    #memberPhoto{
+      text-align: center;
+    }
+    #photoContainer{
+      display:flex;
+      flex-direction:column;
+    }
+    #photoContainer div{
+      margin:15px auto;
+    }
+
+    /*discography device settings*/
+    #albums, #otherAlbums{
+      display: flex;
+      flex-direction: column;
+    }
+    .alThumb{
+      text-align: center;
+    }
+    .alThumb > img{
+      width: 600px;
+    }
+    .view{
+      width:50%;
+      margin:auto;
+    }
+    .trackList > ol{
+      text-align: center;
+    }
+    /*--->end<---*/
+  }
+  
+
+  @media screen and (max-width: 768px) {
+    #indexMain {
+      flex-direction: column;
+    }
+    #indexMain > div{
+      margin:0px;
+    }
+    #menuActivate{
+      font-size:25px;
+    }
+    #indexMain div {
+      width: 100%;
+    }
+    /*discography device settings*/
+    .view{
+      width:70%;
+    }
+    /*-->end<--*/
+    #memberPhoto > img{
+      width:100%;
+    }
+    #news h5, #news p {
+      text-align: center;
+    }
+    #contactBox{
+      flex-direction: column;
+    }
+    #contactBox div{
+      margin:auto;
+    }
+    #fanMail{
+      border:none;
+      border-bottom:1px solid rgba(252, 252, 252, 0.151);
+    }
+	#fanMail, #otherContacts{
+		width:90%;
+	}
+    
+  }
