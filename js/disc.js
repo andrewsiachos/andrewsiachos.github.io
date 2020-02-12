@@ -12,16 +12,17 @@ var colors = {
         "rgb":"rgb(39, 50, 72)"
     },
     "once":{
-        "color":"rgba(42, 54, 70, 0.4)",
-        "rgb":"rgb(42, 54, 70)"
+        "color":"rgba(194, 207, 213, 0.4)",
+        "rgb":"rgb(194, 207, 213)"
     },
     "centuryChild":{
-        "color":"rgba(51, 69, 69, 0.4)",
-        "rgb":"rgb(51, 69, 69)"
+        "color":"rgba(160, 143, 185, 0.4)",
+        "rgb":"rgb(160, 143, 185)"
     },
     "wishmaster":{
         "color":"rgba(70, 19, 18, 0.4)",
         "rgb":"rgb(70, 19, 18)"
+        
     },
     "oceanborn":{
         "color":"rgba(33, 44, 100, 0.4)",
