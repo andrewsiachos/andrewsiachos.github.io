@@ -382,6 +382,7 @@
     }
     .alThumb{
       text-align: center;
+      margin-top:7px;
     }
     .alThumb > img{
       width: 600px;
