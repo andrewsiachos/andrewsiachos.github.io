@@ -204,7 +204,7 @@ var songs = {
         "song":"Master!<br>Apprentice!<br>Heartborne, 7th Seeker<br>Warrior!<br>Disciple!<br>In me the Wishmaster<br><br>Elbereth<br>Lorien<br><br>A dreamy-eyed child staring into night<br>On a journey to storyteller’s mind<br>Whispers a wish speaks with the stars the words are silent in him<br>Distant sigh from a lonely heart<br>“I’ll be with you soon, my Shalafi”<br>Grey Havens my destiny<br><br>Master!…<br><br>Silvara<br>Starbreeze<br><br>Sla-Mori the one known only by Him<br>To august realms, the sorcery within<br>If you hear the call of arcane lore,<br>Your world shall rest on Earth no more<br>A maiden elf calling with her cunning song<br>“Meet me at the Inn of Last Home”<br>Heartborne will find the way!<br><br>Master!…<br><br>Wishmaster<br>Crusade for Your will<br>A child, dreamfinder<br>The Apprentice becoming… "
     },
     "bracegrace":{
-        "title":"Brace Grace Misery",
+        "title":"Bare Grace Misery",
         "song":"Sweet boy, come in<br>I am the dark side of you<br>Die for my sins<br>Like the One once did<br><br>Cinnamon bed<br>For your unashamed appetite<br>A figurante<br>This dance will hurt like hell<br><br>Oh, bare grace misery<br>Just a child without a fairytale am I<br>Dark but so lovely<br>A Little Match Girl freezing in the snow<br><br>Love lying, enticing<br>(Bare grace misery)<br>Crowning the moment<br>(Bare grace misery)<br>This is what I am<br>Bare grace for the end of days<br><br>Romantic scent<br>Spoiled Lucrece lies warm for you<br>There’s no such priest<br>That can pray me to heaven<br><br>When done with me<br>Forget if you think I feel ashamed<br>A wild thing<br>Never felt sorry for anything "
     },
     "crownless":{
