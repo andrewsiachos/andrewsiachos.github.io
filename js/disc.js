@@ -1,7 +1,7 @@
 var colors = {
     "endless":{
-        "color":"rgba(70, 70, 70, 0.4)",
-        "rgb":"rgb(70, 70, 70)"
+        "color":"rgba(174, 161, 145, 0.4)",
+        "rgb":"rgb(174, 161, 145)"
     },
     "imaginaerum":{
         "color":"rgba(17, 54, 70, 0.4)",
@@ -20,9 +20,10 @@ var colors = {
         "rgb":"rgb(160, 143, 185)"
     },
     "wishmaster":{
-        "color":"rgba(70, 19, 18, 0.4)",
-        "rgb":"rgb(70, 19, 18)"
-        
+        //"color":"rgba(70, 19, 18, 0.4)",
+        //"rgb":"rgb(70, 19, 18)"
+        'color':'rgba(125, 35, 45, 0.4)',
+        'rgb':'rgb(125, 35, 45)'
     },
     "oceanborn":{
         "color":"rgba(33, 44, 100, 0.4)",
