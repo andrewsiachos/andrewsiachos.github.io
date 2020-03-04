@@ -176,7 +176,7 @@
     height:auto;
   }
   #photosAndInfo div{
-    border:1px solid rgba(252, 252, 252, 0.151);
+    /*border:1px solid rgba(252, 252, 252, 0.151);*/
     border-radius: 4px;
   }
   #bandDetails{

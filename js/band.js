@@ -83,6 +83,7 @@ var members = {
 };
 
 $(".memberChoice").on("click", function(){
+    
     if(!$(this).attr('class').includes('active')){
         $('.memberChoice').removeClass('active');
         $(this).addClass('active');
@@ -94,12 +95,7 @@ $(".memberChoice").on("click", function(){
         $("#p1").hide().html(members[name].info.p1).fadeIn("fast");
         $("#p2").hide().html(members[name].info.p2).fadeIn("fast");
         $("#p3").hide().html(members[name].info.p3).fadeIn("fast");
-
-        setTimeout(function(){
-            var height = $('#profImg').height();
-            height += 2;
-            $("#photosAndInfo").height(height);
-        },300);
+        
     }
        
 });
@@ -117,12 +113,7 @@ $(".thumbs").on("click", function(){
     $("#bandDetails").delay(750).fadeIn("slow");
     $("#sideMenu").find("#"+thisId).addClass('active');
     console.log($('#sideMenu').find('#floor'));
-
-    setTimeout(function(){
-        var height = $('#profImg').height();
-        height += 2;
-        $("#photosAndInfo").height(height);
-    },1000);
+    
 
     
     
